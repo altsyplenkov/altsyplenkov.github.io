@@ -28,17 +28,17 @@
     "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My name is Aleksandr Tsyplenkov, I’m currently a student\n\n  \n     Download PDF"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello, there!",
     "section": "",
     "text": "Hello, there!\nMy name is Aleksandr Tsyplenkov, blah-blah-blah"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Aleksandr Tsyplenkov, I’m currently a student\n\n  \n     Download PDF"
   }
 ]
