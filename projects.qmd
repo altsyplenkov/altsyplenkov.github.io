@@ -1,5 +1,7 @@
 ---
 title: "My Portfolio"
+date: 2025-03-10
+published-title: Projects last updated
 ---
 
 This section contains some of the projects that I carried out either independently or as part of a ✨group✨. Due to the fact that most of the projects are student practical works, they were done in Russian language
@@ -32,6 +34,6 @@ This section contains some of the projects that I carried out either independent
 
 [Used software]{.underline}: *QGIS* (data processing, map) + *WhiteBoxTools*, *matplotlib* (hypsometric curve) *Adobe Illustrator* (layout);
 
-[Role]{.underline}: Co-Author
+[Role]{.underline}: Author
 
 [PDF Version](files/Hypsometry_Adygea.pdf)

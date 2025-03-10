@@ -60,6 +60,6 @@
     "href": "projects.html#sec-hypsometry-map-of-rep.-adygea",
     "title": "My Portfolio",
     "section": "Hypsometry Map of Rep. Adygea",
-    "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
+    "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
   }
 ]
