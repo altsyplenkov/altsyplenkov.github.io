@@ -14,11 +14,18 @@
     "text": "Denmark Population Map\n\n\n\nThe task was to create two pages from the “Population” section that could be placed in a national atlas (country of choice). My idea was to show both: some spatial data (by municipalties) and other statistics (population pyramid & histograms)\n\n\nUsed software: QGIS (data processing, maps, layout) + matplotlib (graphs);\nRole: Author\nPDF Version / PNG Version"
   },
   {
-    "objectID": "projects.html#landscape-map-pustozersk-nao",
-    "href": "projects.html#landscape-map-pustozersk-nao",
+    "objectID": "projects.html#sec-landscape-map",
+    "href": "projects.html#sec-landscape-map",
     "title": "My Portfolio",
-    "section": "Landscape Map (Pustozersk, NAO)",
-    "text": "Landscape Map (Pustozersk, NAO)\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
+    "section": "Landscape Map (Pustozersk, Russia)",
+    "text": "Landscape Map (Pustozersk, Russia)\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
+  },
+  {
+    "objectID": "projects.html#sec-hypsometry-map-of-rep.-adygea",
+    "href": "projects.html#sec-hypsometry-map-of-rep.-adygea",
+    "title": "My Portfolio",
+    "section": "Hypsometry Map of Rep. Adygea",
+    "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
   },
   {
     "objectID": "about.html",
@@ -33,33 +40,5 @@
     "title": "Hello, there!",
     "section": "",
     "text": "Hello, there!\nMy name is Aleksandr Tsyplenkov, blah-blah-blah"
-  },
-  {
-    "objectID": "projects.html#landscape-map-pustozersk-russia",
-    "href": "projects.html#landscape-map-pustozersk-russia",
-    "title": "My Portfolio",
-    "section": "Landscape Map (Pustozersk, Russia)",
-    "text": "Landscape Map (Pustozersk, Russia)\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
-  },
-  {
-    "objectID": "projects.html#hypsometry-map-of-rep.-adygea",
-    "href": "projects.html#hypsometry-map-of-rep.-adygea",
-    "title": "My Portfolio",
-    "section": "Hypsometry Map of Rep. Adygea",
-    "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
-  },
-  {
-    "objectID": "projects.html#sec-landscape-map",
-    "href": "projects.html#sec-landscape-map",
-    "title": "My Portfolio",
-    "section": "Landscape Map (Pustozersk, Russia)",
-    "text": "Landscape Map (Pustozersk, Russia)\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
-  },
-  {
-    "objectID": "projects.html#sec-hypsometry-map-of-rep.-adygea",
-    "href": "projects.html#sec-hypsometry-map-of-rep.-adygea",
-    "title": "My Portfolio",
-    "section": "Hypsometry Map of Rep. Adygea",
-    "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
   }
 ]
