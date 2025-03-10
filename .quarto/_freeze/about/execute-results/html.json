@@ -1,0 +1,15 @@
+{
+  "hash": "52df6ff19082431dcf65a367a3af8279",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About\"\ndescription-meta: \"Aleksandr Tsyplenkov's CV\"\ndate: 2025-03-10\npublished-title: CV last updated\nengine: knitr \ncv:\n  pdf: \"files/AlTsyplenkov_CV.pdf\"\ncomments: false\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

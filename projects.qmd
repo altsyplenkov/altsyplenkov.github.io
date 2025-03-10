@@ -1,0 +1,37 @@
+---
+title: "My Portfolio"
+---
+
+This section contains some of the projects that I carried out either independently or as part of a ✨group✨. Due to the fact that most of the projects are student practical works, they were done in Russian language
+
+# Cartography {#sec-cartography}
+
+## Denmark Population Map {#sec-denmark-population-map}
+
+![The task was to create two pages from the “Population” section that could be placed in a national atlas (country of choice). My idea was to show both: some spatial data (by municipalties) and other statistics (population pyramid & histograms)](images/ENG_Population_map_Denmark_MAIN.png){fig-align="right"}
+
+[Used software]{.underline}: *QGIS* (data processing, maps, layout) + *matplotlib* (graphs);
+
+[Role]{.underline}: Author
+
+[PDF Version](files/ENG_Population_map_Denmark_MAIN.pdf) / [PNG Version](images/ENG_Population_map_Denmark_MAIN.png)
+
+## Landscape Map (Pustozersk, Russia) {#sec-landscape-map}
+
+![The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).](images/Landscape_Map_Pustozersk_wno_legend.png){fig-align="center" width="60%"}
+
+[Used software]{.underline}: *QGIS* (data processing, map) + *Adobe Illustrator* (layout);
+
+[Role]{.underline}: Co-Author
+
+[PDF Version](files/Landscape_Map_Pustozersk_w_legend.pdf)
+
+## Hypsometry Map of Rep. Adygea {#sec-hypsometry-map-of-rep.-adygea}
+
+![The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.](images/Hypsometry_Adygea.png){fig-align="center" width="60%"}
+
+[Used software]{.underline}: *QGIS* (data processing, map) + *WhiteBoxTools*, *matplotlib* (hypsometric curve) *Adobe Illustrator* (layout);
+
+[Role]{.underline}: Co-Author
+
+[PDF Version](files/Hypsometry_Adygea.pdf)
