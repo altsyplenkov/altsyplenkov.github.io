@@ -4,11 +4,11 @@ date: 2025-03-10
 published-title: Projects last updated
 ---
 
-This section contains some of the projects that I carried out either independently or as part of a ✨group✨. Due to the fact that most of the projects are student practical works, they were done in Russian language
+This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian. All of the projects are
 
 # Cartography {#sec-cartography}
 
-## Denmark Population Map {#sec-denmark-population-map}
+## Denmark Population Map {#denmark-population-map}
 
 ![The task was to create two pages from the “Population” section that could be placed in a national atlas (country of choice). My idea was to show both: some spatial data (by municipalties) and other statistics (population pyramid & histograms)](images/ENG_Population_map_Denmark_MAIN.png){fig-align="right"}
 
@@ -18,7 +18,7 @@ This section contains some of the projects that I carried out either independent
 
 [PDF Version](files/ENG_Population_map_Denmark_MAIN.pdf) / [PNG Version](images/ENG_Population_map_Denmark_MAIN.png)
 
-## Landscape Map (Pustozersk, Russia) {#sec-landscape-map}
+## Landscape Map (Pustozersk, Russia) {#landscape-map}
 
 ![The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).](images/Landscape_Map_Pustozersk_wno_legend.png){fig-align="center" width="60%"}
 
@@ -28,7 +28,7 @@ This section contains some of the projects that I carried out either independent
 
 [PDF Version](files/Landscape_Map_Pustozersk_w_legend.pdf)
 
-## Hypsometry Map of Rep. Adygea {#sec-hypsometry-map-of-rep.-adygea}
+## Hypsometry Map of Rep. Adygea {#hypsometry-map-of-rep-adygea}
 
 ![The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.](images/Hypsometry_Adygea.png){fig-align="center" width="60%"}
 
@@ -38,7 +38,11 @@ This section contains some of the projects that I carried out either independent
 
 [PDF Version](files/Hypsometry_Adygea.pdf)
 
-## Literature Map of Moscow
+## Topographic map of Helsinki
+
+# Web mapping {#sec-web-mapping}
+
+## Literature Map of Moscow {#literature-map-of-moscow}
 
 `<iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/"`{=html}
 
@@ -47,5 +51,7 @@ This section contains some of the projects that I carried out either independent
 School project. Web map, illustrating the locales associated with classical Russian literature in City of Moscow
 
 [Used software]{.underline}: *R* + *JavaScript* (Leaflet)
+
+[Role]{.underline}: Author
 
 [Web Version](https://literator.arktixord.com)
