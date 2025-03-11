@@ -39,7 +39,7 @@
     "href": "projects.html#literature-map-of-moscow",
     "title": "My Portfolio",
     "section": "Literature Map of Moscow",
-    "text": "Literature Map of Moscow\n\n\nSchool project. Web map, illustrating the locales associated with classical Russian literature in City of Moscow\nUsed software: R + JavaScript (Leaflet)\nRole: Author\nWeb Version"
+    "text": "Literature Map of Moscow\n\n\n\nThis project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city’s literary heritage, highlighting places connected to renowned authors and their works.\n\nUsed software: R + JavaScript (Leaflet)\nRole: Author\nWeb Version"
   },
   {
     "objectID": "index.html",
