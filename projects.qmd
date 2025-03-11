@@ -2,6 +2,11 @@
 title: "My Portfolio"
 date: 2025-03-10
 published-title: Projects last updated
+toc: true
+back-to-top-navigation: true
+page-navigation: true
+editor_options:
+  chunk_output_type: console
 ---
 
 This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian. All of the projects are
@@ -39,6 +44,7 @@ This section highlights a selection of projects I have undertaken, both independ
 [PDF Version](files/Hypsometry_Adygea.pdf)
 
 ## Topographic map of Helsinki
+...
 
 # Web mapping {#sec-web-mapping}
 
@@ -48,7 +54,7 @@ This section highlights a selection of projects I have undertaken, both independ
 
 </iframe>
 
-<p style="font-size: 12px; color: #888888;">
+<p style="font-size: 16.5px; color: #888888;">
   This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
 </p>
 
