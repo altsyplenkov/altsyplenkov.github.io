@@ -28,6 +28,13 @@
     "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
   },
   {
+    "objectID": "projects.html#literature-map-of-moscow",
+    "href": "projects.html#literature-map-of-moscow",
+    "title": "My Portfolio",
+    "section": "Literature Map of Moscow",
+    "text": "Literature Map of Moscow\n\n\nSchool project. Web map, illustrating the locales associated with classical Russian literature in City of Moscow\nUsed software: R + JavaScript (Leaflet)\nWeb Version"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello, there!",
@@ -39,6 +46,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "My name is Aleksandr Tsyplenkov. I am currently a 4th year undergraduate student pursuing a bachelor degree in Cartography and Geoinformatics at Lomonosov Moscow State University (Faculty of Geography). I’ve been keen on geography since I was a child, that’s why I once decided to connect my life and potential career with spatial data. My undergraduate thesis are connected with DEM analysis but I’m also extremely enthusiastic about spatial data visualization and other aspects of cartography & geoinformatics. I also have some experience in field surveys including usage of UAVs (you can read about my expeditions in my CV below).\n\n  \n     Download PDF"
+    "text": "My name is Aleksandr Tsyplenkov. I am currently a 4th year undergraduate student pursuing a bachelor degree in Cartography and Geoinformatics at Lomonosov Moscow State University (Faculty of Geography). I’ve been keen on geography since I was a child, that’s why I once decided to connect my life and potential career with spatial data. My undergraduate thesis are connected with DEM analysis but I’m also extremely enthusiastic about spatial data visualization and other aspects of cartography & geoinformatics. I also have some experience in field surveys including usage of UAVs — you can read about my expeditions in my CV below.\n\n  \n     Download PDF"
   }
 ]
