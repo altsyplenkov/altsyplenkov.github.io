@@ -37,3 +37,15 @@ This section contains some of the projects that I carried out either independent
 [Role]{.underline}: Author
 
 [PDF Version](files/Hypsometry_Adygea.pdf)
+
+## Literature Map of Moscow
+
+`<iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/"`{=html}
+
+</iframe>
+
+School project. Web map, illustrating the locales associated with classical Russian literature in City of Moscow
+
+[Used software]{.underline}: *R* + *JavaScript* (Leaflet)
+
+[Web Version](https://literator.arktixord.com)
