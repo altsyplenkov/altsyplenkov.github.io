@@ -48,7 +48,9 @@ This section highlights a selection of projects I have undertaken, both independ
 
 </iframe>
 
-School project. Web map, illustrating the locales associated with classical Russian literature in City of Moscow
+<p style="font-size: 12px; color: #888888;">
+  This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+</p>
 
 [Used software]{.underline}: *R* + *JavaScript* (Leaflet)
 
