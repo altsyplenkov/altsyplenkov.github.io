@@ -4,35 +4,42 @@
     "href": "projects.html",
     "title": "My Portfolio",
     "section": "",
-    "text": "This section contains some of the projects that I carried out either independently or as part of a ✨group✨. Due to the fact that most of the projects are student practical works, they were done in Russian language"
+    "text": "This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian. All of the projects are"
   },
   {
-    "objectID": "projects.html#sec-denmark-population-map",
-    "href": "projects.html#sec-denmark-population-map",
+    "objectID": "projects.html#denmark-population-map",
+    "href": "projects.html#denmark-population-map",
     "title": "My Portfolio",
     "section": "Denmark Population Map",
     "text": "Denmark Population Map\n\n\n\nThe task was to create two pages from the “Population” section that could be placed in a national atlas (country of choice). My idea was to show both: some spatial data (by municipalties) and other statistics (population pyramid & histograms)\n\n\nUsed software: QGIS (data processing, maps, layout) + matplotlib (graphs);\nRole: Author\nPDF Version / PNG Version"
   },
   {
-    "objectID": "projects.html#sec-landscape-map",
-    "href": "projects.html#sec-landscape-map",
+    "objectID": "projects.html#landscape-map",
+    "href": "projects.html#landscape-map",
     "title": "My Portfolio",
     "section": "Landscape Map (Pustozersk, Russia)",
     "text": "Landscape Map (Pustozersk, Russia)\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
   },
   {
-    "objectID": "projects.html#sec-hypsometry-map-of-rep.-adygea",
-    "href": "projects.html#sec-hypsometry-map-of-rep.-adygea",
+    "objectID": "projects.html#hypsometry-map-of-rep-adygea",
+    "href": "projects.html#hypsometry-map-of-rep-adygea",
     "title": "My Portfolio",
     "section": "Hypsometry Map of Rep. Adygea",
     "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
+  },
+  {
+    "objectID": "projects.html#topographic-map-of-helsinki",
+    "href": "projects.html#topographic-map-of-helsinki",
+    "title": "My Portfolio",
+    "section": "Topographic map of Helsinki",
+    "text": "Topographic map of Helsinki"
   },
   {
     "objectID": "projects.html#literature-map-of-moscow",
     "href": "projects.html#literature-map-of-moscow",
     "title": "My Portfolio",
     "section": "Literature Map of Moscow",
-    "text": "Literature Map of Moscow\n\n\nSchool project. Web map, illustrating the locales associated with classical Russian literature in City of Moscow\nUsed software: R + JavaScript (Leaflet)\nWeb Version"
+    "text": "Literature Map of Moscow\n\n\nSchool project. Web map, illustrating the locales associated with classical Russian literature in City of Moscow\nUsed software: R + JavaScript (Leaflet)\nRole: Author\nWeb Version"
   },
   {
     "objectID": "index.html",
