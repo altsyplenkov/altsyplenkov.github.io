@@ -9,13 +9,19 @@ editor_options:
   chunk_output_type: console
 ---
 
-This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian. All of the projects are
+This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian.
 
 # Cartography {#sec-cartography}
 
 ## Denmark Population Map {#denmark-population-map}
 
-![The task was to create two pages from the “Population” section that could be placed in a national atlas (country of choice). My idea was to show both: some spatial data (by municipalties) and other statistics (population pyramid & histograms)](images/ENG_Population_map_Denmark_MAIN.png){fig-align="right"}
+![](images/ENG_Population_map_Denmark_MAIN.png){fig-align="right"}
+
+<p style="font-size: 16.5px; color: #888888;">
+
+The goal of this project was to create two pages for the "Population" section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.
+
+</p>
 
 [Used software]{.underline}: *QGIS* (data processing, maps, layout) + *matplotlib* (graphs);
 
@@ -25,7 +31,13 @@ This section highlights a selection of projects I have undertaken, both independ
 
 ## Landscape Map (Pustozersk, Russia) {#landscape-map}
 
-![The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).](images/Landscape_Map_Pustozersk_wno_legend.png){fig-align="center" width="60%"}
+![](images/Landscape_Map_Pustozersk_wno_legend.png){fig-align="center" width="60%"}
+
+<p style="font-size: 16.5px; color: #888888;">
+
+The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).
+
+</p>
 
 [Used software]{.underline}: *QGIS* (data processing, map) + *Adobe Illustrator* (layout);
 
@@ -35,7 +47,13 @@ This section highlights a selection of projects I have undertaken, both independ
 
 ## Hypsometry Map of Rep. Adygea {#hypsometry-map-of-rep-adygea}
 
-![The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.](images/Hypsometry_Adygea.png){fig-align="center" width="60%"}
+![](images/Hypsometry_Adygea.png){fig-align="center" width="60%"}
+
+<p style="font-size: 16.5px; color: #888888;">
+
+The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.
+
+</p>
 
 [Used software]{.underline}: *QGIS* (data processing, map) + *WhiteBoxTools*, *matplotlib* (hypsometric curve) *Adobe Illustrator* (layout);
 
@@ -44,6 +62,7 @@ This section highlights a selection of projects I have undertaken, both independ
 [PDF Version](files/Hypsometry_Adygea.pdf)
 
 ## Topographic map of Helsinki
+
 ...
 
 # Web mapping {#sec-web-mapping}
@@ -55,7 +74,9 @@ This section highlights a selection of projects I have undertaken, both independ
 </iframe>
 
 <p style="font-size: 16.5px; color: #888888;">
-  This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+
+This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+
 </p>
 
 [Used software]{.underline}: *R* + *JavaScript* (Leaflet)
