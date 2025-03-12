@@ -4,28 +4,28 @@
     "href": "projects.html",
     "title": "My Portfolio",
     "section": "",
-    "text": "This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian. All of the projects are"
+    "text": "This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian."
   },
   {
     "objectID": "projects.html#denmark-population-map",
     "href": "projects.html#denmark-population-map",
     "title": "My Portfolio",
     "section": "Denmark Population Map",
-    "text": "Denmark Population Map\n\n\n\nThe task was to create two pages from the “Population” section that could be placed in a national atlas (country of choice). My idea was to show both: some spatial data (by municipalties) and other statistics (population pyramid & histograms)\n\n\nUsed software: QGIS (data processing, maps, layout) + matplotlib (graphs);\nRole: Author\nPDF Version / PNG Version"
+    "text": "Denmark Population Map\n\n\n\n\n\n\nThe goal of this project was to create two pages for the “Population” section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.\n\nUsed software: QGIS (data processing, maps, layout) + matplotlib (graphs);\nRole: Author\nPDF Version / PNG Version"
   },
   {
     "objectID": "projects.html#landscape-map",
     "href": "projects.html#landscape-map",
     "title": "My Portfolio",
     "section": "Landscape Map (Pustozersk, Russia)",
-    "text": "Landscape Map (Pustozersk, Russia)\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
+    "text": "Landscape Map (Pustozersk, Russia)\n\n\n\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
   },
   {
     "objectID": "projects.html#hypsometry-map-of-rep-adygea",
     "href": "projects.html#hypsometry-map-of-rep-adygea",
     "title": "My Portfolio",
     "section": "Hypsometry Map of Rep. Adygea",
-    "text": "Hypsometry Map of Rep. Adygea\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
+    "text": "Hypsometry Map of Rep. Adygea\n\n\n\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
   },
   {
     "objectID": "projects.html#topographic-map-of-helsinki",
