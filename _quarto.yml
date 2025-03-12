@@ -13,11 +13,15 @@ website:
       - href: projects.qmd
         text: My Projects
   page-footer:
-    center: "© 2025 Aleksandr Tsyplenkov"
-  back-to-top-navigation: true
+    left: 
+      "© 2025 Aleksandr Tsyplenkov"
+    center:
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub](https://github.com/altsyplenkov/altsyplenkov.github.io)</span>
+  back-to-top-navigation: false
   page-navigation: true
 
 format:
   html:
     theme: flatly
     css: styles.css
+    footnotes-hover: true
