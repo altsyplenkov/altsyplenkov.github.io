@@ -4,7 +4,7 @@ description-meta: "Aleksandr Tsyplenkov's CV"
 date: 2025-03-10
 published-title: CV last updated
 cv:
-  pdf: "files/AlTsyplenkov_CV.pdf"
+  pdf: "files/AlTsyplenkov_CV_eng.pdf"
 comments: false
 ---
 
@@ -12,12 +12,12 @@ comments: false
 
 ```{=html}
 <p class="text-center">
-  <a class="btn btn-primary btn-lg cv-download" href="files/AlTsyplenkov_CV.pdf" target="_blank">
+  <a class="btn btn-primary btn-lg cv-download" href="files/AlTsyplenkov_CV_eng.pdf" target="_blank">
     <i class="fa fa-file-pdf"></i>&ensp;Download PDF
   </a>
 </p>
 
 <div class="embed-container">
-   <iframe src="files/AlTsyplenkov_CV.pdf" title="foo" width="100%" height="960"></iframe>
+   <iframe src="files/AlTsyplenkov_CV_eng.pdf" title="foo" width="100%" height="960"></iframe>
 </div>
 ```
