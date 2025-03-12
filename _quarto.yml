@@ -12,6 +12,8 @@ website:
         text: About me
       - href: projects.qmd
         text: My Projects
+      # - href: tutorials.qmd
+      #  text: My Blog
   page-footer:
     left: 
       "© 2025 Aleksandr Tsyplenkov"
