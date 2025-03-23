@@ -17,7 +17,10 @@ website:
       #  text: My Blog
   page-footer:
     left: 
-      "© 2025 Aleksandr Tsyplenkov"
+      © 2025 Aleksandr Tsyplenkov
+    right:
+      - href: https://www.quarto.org
+        text: Built with Quarto
     center:
       <span class="faux-block">[View the source at {{< fa brands github >}} GitHub](https://github.com/altsyplenkov/altsyplenkov.github.io)</span>
   back-to-top-navigation: false
@@ -27,4 +30,5 @@ format:
   html:
     theme: flatly
     css: styles.css
+    mainfont: Tahoma
     footnotes-hover: true
