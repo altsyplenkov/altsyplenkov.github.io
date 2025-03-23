@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/square-globe.svg" rel="icon" type="image/svg+xml">
+<link href="./images/favicon-96x96.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -119,9 +119,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sec-cartography" id="toc-sec-cartography" class="nav-link active" data-scroll-target="#sec-cartography">Cartography</a>
   <ul class="collapse">
   <li><a href="#denmark-population-map" id="toc-denmark-population-map" class="nav-link" data-scroll-target="#denmark-population-map">Denmark Population Map</a></li>
+  <li><a href="#vernacular-districts-of-tver" id="toc-vernacular-districts-of-tver" class="nav-link" data-scroll-target="#vernacular-districts-of-tver">Vernacular Districts of Tver</a></li>
   <li><a href="#landscape-map" id="toc-landscape-map" class="nav-link" data-scroll-target="#landscape-map">Landscape Map (Pustozersk, Russia)</a></li>
   <li><a href="#hypsometry-map-of-rep-adygea" id="toc-hypsometry-map-of-rep-adygea" class="nav-link" data-scroll-target="#hypsometry-map-of-rep-adygea">Hypsometry Map of Rep.&nbsp;Adygea</a></li>
-  <li><a href="#topographic-map-of-helsinki" id="toc-topographic-map-of-helsinki" class="nav-link" data-scroll-target="#topographic-map-of-helsinki">Topographic map of Helsinki</a></li>
   </ul></li>
   <li><a href="#sec-web-mapping" id="toc-sec-web-mapping" class="nav-link" data-scroll-target="#sec-web-mapping">Web mapping</a>
   <ul class="collapse">
@@ -169,11 +169,30 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p style="font-size: 16.5px; color: #888888;">
-The goal of this project was to create two pages for the “Population” section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.
+
+The goal of this project was to create two pages for the "Population" section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.
+
 </p>
 <p><u>Used software</u>: <em>QGIS</em> (data processing, maps, layout) + <em>matplotlib</em> (graphs);</p>
 <p><u>Role</u>: Author</p>
 <p><a href="files/ENG_Population_map_Denmark_MAIN.pdf">PDF Version</a> / <a href="images/ENG_Population_map_Denmark_MAIN.png">PNG Version</a></p>
+</section>
+<section id="vernacular-districts-of-tver" class="level2">
+<h2 class="anchored" data-anchor-id="vernacular-districts-of-tver">Vernacular Districts of Tver</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Tver_Vernacular10.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p style="font-size: 16.5px; color: #888888;">
+
+For this task, we needed to map the vernacular districts of a chosen city. First, let’s explain the main idea. Vernacular districts are informal areas of a city, shaped by the people who live there through their everyday lives. These districts don’t follow official boundaries, and their names and locations are based on how people see and experience the city. 
+As mentioned earlier, we had to pick a city to map its vernacular districts. I chose the city of Tver (Tver Oblast, Russia). All the data were obtained by interviewing local residents.
+
+</p>
+<p><u>Used software</u>: <em>QGIS</em> (data processing, maps and layout);</p>
+<p><u>Role</u>: Author</p>
+<p><a href="images/Tver_Vernacular10.png">PNG Version</a></p>
 </section>
 <section id="landscape-map" class="level2">
 <h2 class="anchored" data-anchor-id="landscape-map">Landscape Map (Pustozersk, Russia)</h2>
@@ -183,7 +202,9 @@ The goal of this project was to create two pages for the “Population” sectio
 </figure>
 </div>
 <p style="font-size: 16.5px; color: #888888;">
+
 The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).
+
 </p>
 <p><u>Used software</u>: <em>QGIS</em> (data processing, map) + <em>Adobe Illustrator</em> (layout);</p>
 <p><u>Role</u>: Co-Author</p>
@@ -197,15 +218,13 @@ The task was to map vegetation associations based on field surveys (that include
 </figure>
 </div>
 <p style="font-size: 16.5px; color: #888888;">
-The task was to map topography of a particular Russia region (Rep.&nbsp;of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.
+
+The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.
+
 </p>
 <p><u>Used software</u>: <em>QGIS</em> (data processing, map) + <em>WhiteBoxTools</em>, <em>matplotlib</em> (hypsometric curve) <em>Adobe Illustrator</em> (layout);</p>
 <p><u>Role</u>: Author</p>
 <p><a href="files/Hypsometry_Adygea.pdf">PDF Version</a></p>
-</section>
-<section id="topographic-map-of-helsinki" class="level2">
-<h2 class="anchored" data-anchor-id="topographic-map-of-helsinki">Topographic map of Helsinki</h2>
-<p>…</p>
 </section>
 </section>
 <section id="sec-web-mapping" class="level1">
@@ -215,11 +234,13 @@ The task was to map topography of a particular Russia region (Rep.&nbsp;of Adyge
 <p><iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/" <="" p="">
 </iframe>
 </p><p style="font-size: 16.5px; color: #888888;">
-This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city’s literary heritage, highlighting places connected to renowned authors and their works.
+
+This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+
 </p>
 <p><u>Used software</u>: <em>R</em> + <em>JavaScript</em> (Leaflet)</p>
 <p><u>Role</u>: Author</p>
-<p><a href="https://literator.arktixord.com">Web Version</a></p>
+<p><a href="https://literator.arktixord.com">Full Web Version</a></p>
 
 
 </section>

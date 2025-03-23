@@ -17,7 +17,13 @@ This section highlights a selection of projects I have undertaken, both independ
 
 ![](images/ENG_Population_map_Denmark_MAIN.png){fig-align="right"}
 
-<p style="font-size: 16.5px; color: #888888;">The goal of this project was to create two pages for the "Population" section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.</p>
+```{=html}
+<p style="font-size: 16.5px; color: #888888;">
+
+The goal of this project was to create two pages for the "Population" section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.
+
+</p>
+```
 
 [Used software]{.underline}: *QGIS* (data processing, maps, layout) + *matplotlib* (graphs);
 
@@ -25,11 +31,36 @@ This section highlights a selection of projects I have undertaken, both independ
 
 [PDF Version](files/ENG_Population_map_Denmark_MAIN.pdf) / [PNG Version](images/ENG_Population_map_Denmark_MAIN.png)
 
+## Vernacular Districts of Tver
+
+![](images/Tver_Vernacular10.png){fig-align="center"}
+
+```{=html}
+<p style="font-size: 16.5px; color: #888888;">
+
+For this task, we needed to map the vernacular districts of a chosen city. First, let’s explain the main idea. Vernacular districts are informal areas of a city, shaped by the people who live there through their everyday lives. These districts don’t follow official boundaries, and their names and locations are based on how people see and experience the city. 
+As mentioned earlier, we had to pick a city to map its vernacular districts. I chose the city of Tver (Tver Oblast, Russia). All the data were obtained by interviewing local residents.
+
+</p>
+```
+
+[Used software]{.underline}: *QGIS* (data processing, maps and layout);
+
+[Role]{.underline}: Author
+
+[PNG Version](images/Tver_Vernacular10.png)
+
 ## Landscape Map (Pustozersk, Russia) {#landscape-map}
 
 ![](images/Landscape_Map_Pustozersk_wno_legend.png){fig-align="center" width="60%"}
 
-<p style="font-size: 16.5px; color: #888888;">The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).</p>
+```{=html}
+<p style="font-size: 16.5px; color: #888888;">
+
+The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).
+
+</p>
+```
 
 [Used software]{.underline}: *QGIS* (data processing, map) + *Adobe Illustrator* (layout);
 
@@ -41,7 +72,13 @@ This section highlights a selection of projects I have undertaken, both independ
 
 ![](images/Hypsometry_Adygea.png){fig-align="center" width="60%"}
 
-<p style="font-size: 16.5px; color: #888888;">The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.</p>
+```{=html}
+<p style="font-size: 16.5px; color: #888888;">
+
+The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.
+
+</p>
+```
 
 [Used software]{.underline}: *QGIS* (data processing, map) + *WhiteBoxTools*, *matplotlib* (hypsometric curve) *Adobe Illustrator* (layout);
 
@@ -49,9 +86,6 @@ This section highlights a selection of projects I have undertaken, both independ
 
 [PDF Version](files/Hypsometry_Adygea.pdf)
 
-## Topographic map of Helsinki
-
-...
 
 # Web mapping {#sec-web-mapping}
 
@@ -61,10 +95,16 @@ This section highlights a selection of projects I have undertaken, both independ
 
 </iframe>
 
-<p style="font-size: 16.5px; color: #888888;">This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.</p>
+```{=html}
+<p style="font-size: 16.5px; color: #888888;">
+
+This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+
+</p>
+```
 
 [Used software]{.underline}: *R* + *JavaScript* (Leaflet)
 
 [Role]{.underline}: Author
 
-[Web Version](https://literator.arktixord.com)
+[Full Web Version](https://literator.arktixord.com)
