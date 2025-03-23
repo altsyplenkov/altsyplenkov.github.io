@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: "images/square-globe.svg"
   title: "Al. Tsyplenkov's 🗺️ Portfolio"
   description: "Personal website & portfolio of Aleksandr Tsyplenkov"
   navbar:
