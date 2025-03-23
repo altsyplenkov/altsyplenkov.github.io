@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About me"
 description-meta: "Aleksandr Tsyplenkov's CV"
 date: 2025-03-10
 published-title: CV last updated
@@ -18,6 +18,6 @@ comments: false
 </p>
 
 <div class="embed-container">
-   <iframe src="files/AlTsyplenkov_CV_eng.pdf" title="foo" width="100%" height="960"></iframe>
+   <iframe src="files/AlTsyplenkov_CV_eng.pdf#toolbar=0&navpanes=0&scrollbar=0" title="foo" width="100%" height="960"></iframe>
 </div>
 ```
