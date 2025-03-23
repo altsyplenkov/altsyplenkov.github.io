@@ -46,12 +46,12 @@
     "href": "index.html",
     "title": "Hello, there!",
     "section": "",
-    "text": "Hello, there!\nMy name is Aleksandr Tsyplenkov and this is my personal website (WIP currently). Feel free to learn more about me in the About Me section and take a look at my portfolio in the My Projects section"
+    "text": "Hello, there!\nMy name is Aleksandr Tsyplenkov and this is my personal website (WIP currently). Feel free to learn more about me in the About Me section and take a look at my portfolio in the My Projects section!"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About me",
     "section": "",
     "text": "My name is Aleksandr Tsyplenkov. I am currently a 4th year undergraduate student pursuing a bachelor degree in Cartography and Geoinformatics at Lomonosov Moscow State University (Faculty of Geography). I’ve been keen on geography since I was a child, that’s why I once decided to connect my life and potential career with spatial data. My undergraduate thesis are connected with DEM analysis but I’m also extremely enthusiastic about spatial data visualization and other aspects of cartography & geoinformatics. I also have some experience in field surveys including usage of UAVs — you can read about my expeditions in my CV below.\n\n\n  \n     Download PDF"
   }
