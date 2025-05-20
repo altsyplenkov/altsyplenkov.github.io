@@ -30,12 +30,12 @@ My interests are: *spatial data visualization* & *map design*, *digital elevatio
 
 ## Experience
 
-- **Dilijan National Park**, Armenia | Field study of tree structures interpretation | 2025
+- [Dilijan National Park]{.mark}, Armenia | Field study of tree structures interpretation | 2025
 
-- **TU Berlin, Stadtökologie department** | Internship (research assistant) | 2024
+- [TU Berlin, Stadtökologie department]{.mark} | Internship (research assistant) | 2024
 
-- **Pustozersk Landscape Reserve**, Russia | Field thematic interpretation practice | 2023
+- [Pustozersk Landscape Reserve]{.mark}, Russia | Field thematic interpretation practice | 2023
 
-- **White Sea Biological Station**, Russia | Topographic-geodesic practice | 2023
+- [White Sea Biological Station]{.mark}, Russia | Topographic-geodesic practice | 2023
 
 :::
