@@ -50,6 +50,10 @@ As mentioned earlier, we had to pick a city to map its vernacular districts. I c
 
 [PNG Version](images/Tver_Vernacular10.png)
 
+## Vegetation types (Dilijan, Armenia) {#vegetation-types}
+
+![](images/les2_map9.png){fig-align="right"}
+
 ## Landscape Map (Pustozersk, Russia) {#landscape-map}
 
 ![](images/Landscape_Map_Pustozersk_wno_legend.png){fig-align="center" width="60%"}
@@ -85,7 +89,6 @@ The task was to map topography of a particular Russia region (Rep. of Adygea). D
 [Role]{.underline}: Author
 
 [PDF Version](files/Hypsometry_Adygea.pdf)
-
 
 # Web mapping {#sec-web-mapping}
 

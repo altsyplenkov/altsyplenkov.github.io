@@ -19,6 +19,6 @@ My undergraduate thesis are connected with DEM analysis but I'm also extremely e
 </p>
 
 <div class="embed-container">
-   <iframe src="files/AlTsyplenkov_CV_eng.pdf#toolbar=0&navpanes=0&scrollbar=0" title="foo" width="100%" height="960"></iframe>
+   <iframe src="files/AlTsyplenkov_CV_eng.pdf#toolbar=0&navpanes=0" title="foo" width="100%" height="960"></iframe>
 </div>
 ```

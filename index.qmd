@@ -1,3 +1,41 @@
-# Hello, there!
+---
+title: Aleksandr Tsyplenkov
+lang: en
+about:
+  template: trestles
+  image: "images/profile_photo.jpg"
+  image-width: "200px;"
+  links:
+    - icon: github
+      href: https://github.com/altsyplenkov
+    - icon: telegram
+      href: https://t.me/MrRioba
+    - text: Истина
+      href: https://istina.msu.ru/workers/634185950/
+execute:
+  echo: false
+comments: false
+---
 
-My name is Aleksandr Tsyplenkov and this is my personal website (WIP currently). Feel free to learn more about me in the [**About Me**](./about.qmd) section and take a look at my portfolio in the [**My Projects**](./projects.qmd) section!
+:::{.column-body-outset}
+
+## Hello there! 
+
+My name is Aleksandr Tsyplenkov and this is my personal website (WIP). Feel free to learn more [**about me**](./about.qmd) and take a look at my portfolio in the [**My Projects**](./projects.qmd) section!
+
+I'm currently a 4th year undergraduate student pursuing a bachelor degree in [Cartography and Geoinformatics](https://carto.geogr.msu.ru/site/) at Lomonosov Moscow State University ([Faculty of Geography](https://www.eng.geogr.msu.ru/?changed_lang=true)).
+
+My interests are: *spatial data visualization* & *map design*, *digital elevation modelling* (my thesis is connected with DEM smoothing) and *spatial analysis*.
+
+
+## Experience
+
+- **Dilijan National Park**, Armenia | Field study of tree structures interpretation | 2025
+
+- **TU Berlin, Stadtökologie department** | Internship (research assistant) | 2024
+
+- **Pustozersk Landscape Reserve**, Russia | Field thematic interpretation practice | 2023
+
+- **White Sea Biological Station**, Russia | Topographic-geodesic practice | 2023
+
+:::
