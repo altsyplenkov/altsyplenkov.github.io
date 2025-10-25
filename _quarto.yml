@@ -25,6 +25,14 @@ website:
       <span class="faux-block">[View the source at {{< fa brands github >}} GitHub](https://github.com/altsyplenkov/altsyplenkov.github.io)</span>
   back-to-top-navigation: false
   page-navigation: true
+  
+language:
+  en:
+    title: "My Website"
+    description: "English description"
+  ru:
+    title: "Мой сайт"
+    description: "Русское описание"
 
 format:
   html:

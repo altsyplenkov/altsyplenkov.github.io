@@ -1,109 +1,24 @@
 ---
-title: "My Portfolio"
+title: "About me"
+description-meta: "Aleksandr Tsyplenkov's CV"
 date: 2025-03-10
-published-title: Projects last updated
-toc: true
-back-to-top-navigation: true
-page-navigation: true
-editor_options:
-  chunk_output_type: console
+published-title: CV last updated
+cv:
+  pdf: "files/AlTsyplenkov_CV_eng.pdf"
+comments: false
 ---
 
-This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian.
-
-# Cartography {#sec-cartography}
-
-## Denmark Population Map {#denmark-population-map}
-
-![](images/ENG_Population_map_Denmark_MAIN.png){fig-align="right"}
+<p align="justify">My name is *Aleksandr Tsyplenkov*. I am currently a 4th year undergraduate student pursuing a bachelor degree in *Cartography and Geoinformatics* at **Lomonosov Moscow State University** (*Faculty of Geography*). I've been keen on geography since I was a child, that's why I once decided to connect my life and potential career with spatial data. 
+My undergraduate thesis are connected with DEM analysis but I'm also extremely enthusiastic about spatial data visualization and other aspects of cartography & geoinformatics. I also have some experience in field surveys including usage of UAVs — you can read about my expeditions in my CV below.</p>
 
 ```{=html}
-<p style="font-size: 16.5px; color: #888888;">
-
-The goal of this project was to create two pages for the "Population" section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.
-
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="files/AlTsyplenkov_CV_eng.pdf" target="_blank">
+    <i class="fa fa-file-pdf"></i>&ensp;Download PDF
+  </a>
 </p>
+
+<div class="embed-container">
+   <iframe src="files/AlTsyplenkov_CV_eng.pdf#toolbar=0&navpanes=0" title="foo" width="100%" height="960"></iframe>
+</div>
 ```
-
-[Used software]{.underline}: *QGIS* (data processing, maps, layout) + *matplotlib* (graphs);
-
-[Role]{.underline}: Author
-
-[PDF Version](files/ENG_Population_map_Denmark_MAIN.pdf) / [PNG Version](images/ENG_Population_map_Denmark_MAIN.png)
-
-## Vernacular Districts of Tver
-
-![](images/Tver_Vernacular10.png){fig-align="center"}
-
-```{=html}
-<p style="font-size: 16.5px; color: #888888;">
-
-For this task, we needed to map the vernacular districts of a chosen city. First, let’s explain the main idea. Vernacular districts are informal areas of a city, shaped by the people who live there through their everyday lives. These districts don’t follow official boundaries, and their names and locations are based on how people see and experience the city. 
-As mentioned earlier, we had to pick a city to map its vernacular districts. I chose the city of Tver (Tver Oblast, Russia). All the data were obtained by interviewing local residents.
-
-</p>
-```
-
-[Used software]{.underline}: *QGIS* (data processing, maps and layout);
-
-[Role]{.underline}: Author
-
-[PNG Version](images/Tver_Vernacular10.png)
-
-## Landscape Map (Pustozersk, Russia) {#landscape-map}
-
-![](images/Landscape_Map_Pustozersk_wno_legend.png){fig-align="center" width="60%"}
-
-```{=html}
-<p style="font-size: 16.5px; color: #888888;">
-
-The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).
-
-</p>
-```
-
-[Used software]{.underline}: *QGIS* (data processing, map) + *Adobe Illustrator* (layout);
-
-[Role]{.underline}: Co-Author
-
-[PDF Version](files/Landscape_Map_Pustozersk_w_legend.pdf)
-
-## Hypsometry Map of Rep. Adygea {#hypsometry-map-of-rep-adygea}
-
-![](images/Hypsometry_Adygea.png){fig-align="center" width="60%"}
-
-```{=html}
-<p style="font-size: 16.5px; color: #888888;">
-
-The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.
-
-</p>
-```
-
-[Used software]{.underline}: *QGIS* (data processing, map) + *WhiteBoxTools*, *matplotlib* (hypsometric curve) *Adobe Illustrator* (layout);
-
-[Role]{.underline}: Author
-
-[PDF Version](files/Hypsometry_Adygea.pdf)
-
-# Web mapping {#sec-web-mapping}
-
-## Literature Map of Moscow {#literature-map-of-moscow}
-
-`<iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/"`{=html}
-
-</iframe>
-
-```{=html}
-<p style="font-size: 16.5px; color: #888888;">
-
-This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
-
-</p>
-```
-
-[Used software]{.underline}: *R* + *JavaScript* (Leaflet)
-
-[Role]{.underline}: Author
-
-[Full Web Version](https://literator.arktixord.com)
