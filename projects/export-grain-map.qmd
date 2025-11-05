@@ -1,0 +1,10 @@
+---
+title: "Экспорт зерна из Российских портов"
+date: 2025-07-31
+categories: ["map", "QGIS", "Illustrator"]
+image: ../images/export_grain.png
+description: >
+  Карта потоков экспорта зерна из Российских портов
+---
+
+![](../images/export_grain.png){fig-align="right"}

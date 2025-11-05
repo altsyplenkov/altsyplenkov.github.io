@@ -1,0 +1,25 @@
+---
+title: "Вернакулярные районы Твери"
+date: 2024-12-10
+categories: ["map", "QGIS"]
+image: ../images/Tver_Vernacular10.png
+description: >
+  Карта вернакулярных районов Твери.
+---
+
+![](../images/Tver_Vernacular10.png){fig-align="center"}
+
+```{=html}
+<p style="font-size: 16.5px; color: #888888;">
+
+For this task, we needed to map the vernacular districts of a chosen city. First, let’s explain the main idea. Vernacular districts are informal areas of a city, shaped by the people who live there through their everyday lives. These districts don’t follow official boundaries, and their names and locations are based on how people see and experience the city. 
+As mentioned earlier, we had to pick a city to map its vernacular districts. I chose the city of Tver (Tver Oblast, Russia). All the data were obtained by interviewing local residents.
+
+</p>
+```
+
+[Used software]{.underline}: *QGIS* (data processing, maps and layout);
+
+[Role]{.underline}: Author
+
+[PNG Version](../images/Tver_Vernacular10.png)

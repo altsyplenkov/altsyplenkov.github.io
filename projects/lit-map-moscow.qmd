@@ -1,0 +1,25 @@
+---
+title: "Литературная карта Москвы"
+date: 2024-12-10
+categories: ["map", "web", "R", "leaflet"]
+image: ../images/lit_map.png
+description: >
+  Интерактивная карта Москвы с местами действия литературных произведений
+---
+`<iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/"`{=html}
+
+</iframe>
+
+```{=html}
+<p style="font-size: 16.5px; color: #888888;">
+
+This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+
+</p>
+```
+
+[Used software]{.underline}: *R* + *JavaScript* (Leaflet)
+
+[Role]{.underline}: Author
+
+[Full Web Version](https://literator.arktixord.com)

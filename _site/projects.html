@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-03-10">
-<meta name="description" content="Aleksandr Tsyplenkov’s CV">
+<meta name="dcterms.date" content="2025-11-05">
 
-<title>About me – Al. Tsyplenkov’s 🗺️ Portfolio</title>
+<title>Портфолио – Александр 🗺 Цыпленков</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon-96x96.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,12 +72,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Al. Tsyplenkov’s 🗺️ Portfolio</span>
+    <span class="navbar-title">Александр 🗺 Цыпленков</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -95,11 +154,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About me</span></a>
+<span class="menu-text">О себе</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">My Projects</span></a>
+<span class="menu-text">Мои проекты</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -112,13 +171,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SWxsdXN0cmF0b3I=">Illustrator <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UUdJUw==">QGIS <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGVhZmxldA==">leaflet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFw">map <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bWF0cGxvdGxpYg==">matplotlib <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2Vi">web <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUQwJUExJUQwJUJFJUQxJTg2JUQwJUFEJUQwJUJB">СоцЭк <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About me</h1>
+<h1 class="title">Портфолио</h1>
 </div>
 
 
@@ -127,9 +187,9 @@ ul.task-list li input[type="checkbox"] {
 
     
     <div>
-    <div class="quarto-title-meta-heading">CV last updated</div>
+    <div class="quarto-title-meta-heading">Последнее обновление</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 10, 2025</p>
+      <p class="date">November 5, 2025</p>
     </div>
   </div>
   
@@ -141,22 +201,156 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p align="justify">
-My name is <em>Aleksandr Tsyplenkov</em>. I am currently a 4th year undergraduate student pursuing a bachelor degree in <em>Cartography and Geoinformatics</em> at <strong>Lomonosov Moscow State University</strong> (<em>Faculty of Geography</em>). I’ve been keen on geography since I was a child, that’s why I once decided to connect my life and potential career with spatial data. My undergraduate thesis are connected with DEM analysis but I’m also extremely enthusiastic about spatial data visualization and other aspects of cartography &amp; geoinformatics. I also have some experience in field surveys including usage of UAVs — you can read about my expeditions in my CV below.
-</p>
-<p class="text-center">
-  <a class="btn btn-primary btn-lg cv-download" href="files/AlTsyplenkov_CV_eng.pdf" target="_blank">
-    <i class="fa fa-file-pdf"></i> Download PDF
-  </a>
-</p>
+<p>Здесь собраны некоторые из моих проектов — как индивидуальных, так и командных. Большинство из них были подготовлены в рамках практических заданий на кафедре <em>Картографии и геоинформатики</em>.</p>
 
-<div class="embed-container">
-   <iframe src="files/AlTsyplenkov_CV_eng.pdf#toolbar=0&amp;navpanes=0" title="foo" width="100%" height="960"></iframe>
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="bWFwJTJDUUdJUyUyQ0lsbHVzdHJhdG9y" data-listing-date-sort="1753909200000" data-listing-file-modified-sort="1762307309941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects/export-grain-map.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/export_grain.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Экспорт зерна из Российских портов
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">
+map
 </div>
-
-
-
-</main> <!-- /main -->
+<div class="listing-category" onclick="window.quartoListingCategory('UUdJUw=='); return false;">
+QGIS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SWxsdXN0cmF0b3I='); return false;">
+Illustrator
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Карта потоков экспорта зерна из Российских портов</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 31, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="bWFwJTJDJUQwJUExJUQwJUJFJUQxJTg2JUQwJUFEJUQwJUJBJTJDUUdJUyUyQ21hdHBsb3RsaWIlMkNQeXRob24=" data-listing-date-sort="1733778000000" data-listing-file-modified-sort="1762305835736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<a href="./projects/denmark-population-map.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/ENG_Population_map_Denmark_MAIN.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Карта населения Дании
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">
+map
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('JUQwJUExJUQwJUJFJUQxJTg2JUQwJUFEJUQwJUJB'); return false;">
+СоцЭк
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UUdJUw=='); return false;">
+QGIS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0cGxvdGxpYg=='); return false;">
+matplotlib
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
+Python
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Two-page atlas layout visualizing Denmark’s population structure and demographics.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 10, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="bWFwJTJDd2ViJTJDUiUyQ2xlYWZsZXQ=" data-listing-date-sort="1733778000000" data-listing-file-modified-sort="1762306045633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+<a href="./projects/lit-map-moscow.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/lit_map.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Литературная карта Москвы
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">
+map
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('d2Vi'); return false;">
+web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhZmxldA=='); return false;">
+leaflet
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Интерактивная карта Москвы с местами действия литературных произведений</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 10, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="bWFwJTJDUUdJUw==" data-listing-date-sort="1733778000000" data-listing-file-modified-sort="1762305830253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<a href="./projects/vernacular-districts-tver.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/Tver_Vernacular10.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Вернакулярные районы Твери
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">
+map
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UUdJUw=='); return false;">
+QGIS
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Карта вернакулярных районов Твери.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 10, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

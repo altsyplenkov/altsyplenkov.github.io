@@ -1,24 +1,25 @@
 ---
-title: "About me"
-description-meta: "Aleksandr Tsyplenkov's CV"
-date: 2025-03-10
-published-title: CV last updated
+title: "О себе"
+description-meta: "Резюме Александра Цыпленкова"
+date: 2025-11-05
+published-title: Последнее обновление
 cv:
-  pdf: "files/AlTsyplenkov_CV_eng.pdf"
+  pdf: "files/Alexander_Tsyplenkov_CV_ru.pdf"
 comments: false
 ---
 
-<p align="justify">My name is *Aleksandr Tsyplenkov*. I am currently a 4th year undergraduate student pursuing a bachelor degree in *Cartography and Geoinformatics* at **Lomonosov Moscow State University** (*Faculty of Geography*). I've been keen on geography since I was a child, that's why I once decided to connect my life and potential career with spatial data. 
-My undergraduate thesis are connected with DEM analysis but I'm also extremely enthusiastic about spatial data visualization and other aspects of cartography & geoinformatics. I also have some experience in field surveys including usage of UAVs — you can read about my expeditions in my CV below.</p>
+<p align="justify">В настоящее время я студент 4-го курса, получаю степень бакалавра по направлению «**Картография и геоинформатика**» в МГУ им. М. В. Ломоносова (*географический факультет*). Интерес к географии, возникший у меня ещё в детстве, предопределил мой выбор в пользу работы с пространственными данными.
+
+В рамках курсовой работы я занимался анализом ЦМР, однако также интересуюсь визуализацией пространственных данных и другими направлениями картографии и геоинформатики. Имею опыт полевых исследований, в том числе с применением БПЛА. Подробнее о моих экспедициях, а также опыте работы и моих навыках — в резюме ниже.</p>
 
 ```{=html}
 <p class="text-center">
-  <a class="btn btn-primary btn-lg cv-download" href="files/AlTsyplenkov_CV_eng.pdf" target="_blank">
-    <i class="fa fa-file-pdf"></i>&ensp;Download PDF
+  <a class="btn btn-primary btn-lg cv-download" href="files/Alexander_Tsyplenkov_CV_ru.pdf" target="_blank">
+    <i class="fa fa-file-pdf"></i>&ensp;Скачать PDF
   </a>
 </p>
 
 <div class="embed-container">
-   <iframe src="files/AlTsyplenkov_CV_eng.pdf#toolbar=0&navpanes=0" title="foo" width="100%" height="960"></iframe>
+   <iframe src="files/Alexander_Tsyplenkov_CV_ru.pdf#toolbar=0&navpanes=0" title="foo" width="100%" height="960"></iframe>
 </div>
 ```

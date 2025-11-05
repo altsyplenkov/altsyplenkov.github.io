@@ -7,5 +7,17 @@
   },
   "projects.qmd": {
     "projects.html": "35521b06"
+  },
+  "projects/denmark-population-map.qmd": {
+    "denmark-population-map.html": "8f535639"
+  },
+  "projects/vernacular-districts-tver.qmd": {
+    "vernacular-districts-tver.html": "f302cd7d"
+  },
+  "projects/lit-map-moscow.qmd": {
+    "lit-map-moscow.html": "5e41984a"
+  },
+  "projects/export-grain-map.qmd": {
+    "export-grain-map.html": "ecf503ff"
   }
 }

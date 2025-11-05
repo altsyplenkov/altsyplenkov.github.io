@@ -1,24 +1,17 @@
 ---
-title: "About me"
-description-meta: "Aleksandr Tsyplenkov's CV"
-date: 2025-03-10
-published-title: CV last updated
-cv:
-  pdf: "files/AlTsyplenkov_CV_eng.pdf"
-comments: false
+title: "Портфолио"
+date: 2025-11-05
+published-title: "Последнее обновление"
+toc: false
+page-navigation: true
+back-to-top-navigation: true
+
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  categories: true
+  fields: [title, image, description, categories, date]
 ---
 
-<p align="justify">My name is *Aleksandr Tsyplenkov*. I am currently a 4th year undergraduate student pursuing a bachelor degree in *Cartography and Geoinformatics* at **Lomonosov Moscow State University** (*Faculty of Geography*). I've been keen on geography since I was a child, that's why I once decided to connect my life and potential career with spatial data. 
-My undergraduate thesis are connected with DEM analysis but I'm also extremely enthusiastic about spatial data visualization and other aspects of cartography & geoinformatics. I also have some experience in field surveys including usage of UAVs — you can read about my expeditions in my CV below.</p>
-
-```{=html}
-<p class="text-center">
-  <a class="btn btn-primary btn-lg cv-download" href="files/AlTsyplenkov_CV_eng.pdf" target="_blank">
-    <i class="fa fa-file-pdf"></i>&ensp;Download PDF
-  </a>
-</p>
-
-<div class="embed-container">
-   <iframe src="files/AlTsyplenkov_CV_eng.pdf#toolbar=0&navpanes=0" title="foo" width="100%" height="960"></iframe>
-</div>
-```
+Здесь собраны некоторые из моих проектов — как индивидуальных, так и командных. Большинство из них были подготовлены в рамках практических заданий на кафедре *Картографии и геоинформатики*.

@@ -3,16 +3,16 @@ project:
 
 website:
   favicon: "images/favicon-96x96.png"
-  title: "Al. Tsyplenkov's 🗺️ Portfolio"
-  description: "Personal website & portfolio of Aleksandr Tsyplenkov"
+  title: "Александр 🗺 Цыпленков"
+  description: "Персональный сайт и портфолио Цыпленкова Александра"
   navbar:
     left:
       # - href: index.qmd
       #   text: Home
       - href: about.qmd
-        text: About me
+        text: О себе
       - href: projects.qmd
-        text: My Projects
+        text: Мои проекты
       # - href: tutorials.qmd
       #  text: My Blog
   page-footer:
