@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://altsyplenkov.github.io/index.html</loc>
-    <lastmod>2025-05-20T23:03:27.509Z</lastmod>
+    <loc>https://altsyplenkov.github.io/projects.html</loc>
+    <lastmod>2025-11-05T01:53:26.119Z</lastmod>
   </url>
   <url>
-    <loc>https://altsyplenkov.github.io/projects.html</loc>
-    <lastmod>2025-05-20T23:03:27.509Z</lastmod>
+    <loc>https://altsyplenkov.github.io/index.html</loc>
+    <lastmod>2025-11-05T01:53:26.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://altsyplenkov.github.io/projects/denmark-population-map.html</loc>
+    <lastmod>2025-11-05T01:53:26.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://altsyplenkov.github.io/projects/lit-map-moscow.html</loc>
+    <lastmod>2025-11-05T01:53:26.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://altsyplenkov.github.io/projects/export-grain-map.html</loc>
+    <lastmod>2025-11-05T01:53:26.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://altsyplenkov.github.io/projects/vernacular-districts-tver.html</loc>
+    <lastmod>2025-11-05T01:53:26.119Z</lastmod>
   </url>
   <url>
     <loc>https://altsyplenkov.github.io/about.html</loc>
-    <lastmod>2025-05-20T23:03:27.415Z</lastmod>
+    <lastmod>2025-11-05T01:53:25.926Z</lastmod>
   </url>
 </urlset>

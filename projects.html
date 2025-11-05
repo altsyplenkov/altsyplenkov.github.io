@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-03-10">
+<meta name="dcterms.date" content="2025-11-05">
 
-<title>My Portfolio – Al. Tsyplenkov’s 🗺️ Portfolio</title>
+<title>Портфолио – Александр 🗺 Цыпленков</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,16 +32,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon-96x96.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-08c28941f3a5e8b1a146f025429b684a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-895dac5c6d67f3f26f80d7c285cfa272.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -71,7 +74,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -83,8 +144,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Al. Tsyplenkov’s 🗺️ Portfolio</span>
+    <span class="navbar-title">Александр 🗺 Цыпленков</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -95,11 +158,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About me</span></a>
+<span class="menu-text">О себе</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">My Projects</span></a>
+<span class="menu-text">Мои проекты</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -113,30 +176,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#sec-cartography" id="toc-sec-cartography" class="nav-link active" data-scroll-target="#sec-cartography">Cartography</a>
-  <ul class="collapse">
-  <li><a href="#denmark-population-map" id="toc-denmark-population-map" class="nav-link" data-scroll-target="#denmark-population-map">Denmark Population Map</a></li>
-  <li><a href="#vernacular-districts-of-tver" id="toc-vernacular-districts-of-tver" class="nav-link" data-scroll-target="#vernacular-districts-of-tver">Vernacular Districts of Tver</a></li>
-  <li><a href="#landscape-map" id="toc-landscape-map" class="nav-link" data-scroll-target="#landscape-map">Landscape Map (Pustozersk, Russia)</a></li>
-  <li><a href="#hypsometry-map-of-rep-adygea" id="toc-hypsometry-map-of-rep-adygea" class="nav-link" data-scroll-target="#hypsometry-map-of-rep-adygea">Hypsometry Map of Rep.&nbsp;Adygea</a></li>
-  </ul></li>
-  <li><a href="#sec-web-mapping" id="toc-sec-web-mapping" class="nav-link" data-scroll-target="#sec-web-mapping">Web mapping</a>
-  <ul class="collapse">
-  <li><a href="#literature-map-of-moscow" id="toc-literature-map-of-moscow" class="nav-link" data-scroll-target="#literature-map-of-moscow">Literature Map of Moscow</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SWxsdXN0cmF0b3I=">Illustrator <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGVhZmxldA==">leaflet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFw">map <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bWF0cGxvdGxpYg==">matplotlib <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UUdJUw==">QGIS <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2Vi">web <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUQwJUExJUQwJUJFJUQxJTg2JUQwJUFEJUQwJUJB">СоцЭк <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Portfolio</h1>
+<h1 class="title">Портфолио</h1>
 </div>
 
 
@@ -145,9 +191,9 @@ ul.task-list li input[type="checkbox"] {
 
     
     <div>
-    <div class="quarto-title-meta-heading">Projects last updated</div>
+    <div class="quarto-title-meta-heading">Последнее обновление</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 10, 2025</p>
+      <p class="date">November 5, 2025</p>
     </div>
   </div>
   
@@ -159,95 +205,140 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian.</p>
-<section id="sec-cartography" class="level1">
-<h1>Cartography</h1>
-<section id="denmark-population-map" class="level2">
-<h2 class="anchored" data-anchor-id="denmark-population-map">Denmark Population Map</h2>
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="images/ENG_Population_map_Denmark_MAIN.png" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
-</figure>
+<p>Здесь собраны некоторые из моих проектов — как индивидуальных, так и командных. Большинство из них были подготовлены в рамках практических заданий на кафедре <em>Картографии и геоинформатики</em>.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="bWFwJTJDUUdJUyUyQ0lsbHVzdHJhdG9y" data-listing-date-sort="1753920000000" data-listing-file-modified-sort="1762307606119" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects/export-grain-map.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/export_grain.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Экспорт зерна из Российских портов
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">map</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UUdJUw=='); return false;">QGIS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SWxsdXN0cmF0b3I='); return false;">Illustrator</div>
+
 </div>
-<p style="font-size: 16.5px; color: #888888;">
-
-The goal of this project was to create two pages for the "Population" section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.
-
-</p>
-<p><u>Used software</u>: <em>QGIS</em> (data processing, maps, layout) + <em>matplotlib</em> (graphs);</p>
-<p><u>Role</u>: Author</p>
-<p><a href="files/ENG_Population_map_Denmark_MAIN.pdf">PDF Version</a> / <a href="images/ENG_Population_map_Denmark_MAIN.png">PNG Version</a></p>
-</section>
-<section id="vernacular-districts-of-tver" class="level2">
-<h2 class="anchored" data-anchor-id="vernacular-districts-of-tver">Vernacular Districts of Tver</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Tver_Vernacular10.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
+<div class="card-text listing-description delink">
+<p>Карта потоков экспорта зерна из Российских портов</p>
 </div>
-<p style="font-size: 16.5px; color: #888888;">
-
-For this task, we needed to map the vernacular districts of a chosen city. First, let’s explain the main idea. Vernacular districts are informal areas of a city, shaped by the people who live there through their everyday lives. These districts don’t follow official boundaries, and their names and locations are based on how people see and experience the city. 
-As mentioned earlier, we had to pick a city to map its vernacular districts. I chose the city of Tver (Tver Oblast, Russia). All the data were obtained by interviewing local residents.
-
-</p>
-<p><u>Used software</u>: <em>QGIS</em> (data processing, maps and layout);</p>
-<p><u>Role</u>: Author</p>
-<p><a href="images/Tver_Vernacular10.png">PNG Version</a></p>
-</section>
-<section id="landscape-map" class="level2">
-<h2 class="anchored" data-anchor-id="landscape-map">Landscape Map (Pustozersk, Russia)</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Landscape_Map_Pustozersk_wno_legend.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
-</figure>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 31, 2025
 </div>
-<p style="font-size: 16.5px; color: #888888;">
-
-The task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).
-
-</p>
-<p><u>Used software</u>: <em>QGIS</em> (data processing, map) + <em>Adobe Illustrator</em> (layout);</p>
-<p><u>Role</u>: Co-Author</p>
-<p><a href="files/Landscape_Map_Pustozersk_w_legend.pdf">PDF Version</a></p>
-</section>
-<section id="hypsometry-map-of-rep-adygea" class="level2">
-<h2 class="anchored" data-anchor-id="hypsometry-map-of-rep-adygea">Hypsometry Map of Rep.&nbsp;Adygea</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Hypsometry_Adygea.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
-</figure>
 </div>
-<p style="font-size: 16.5px; color: #888888;">
-
-The task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.
-
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="bWFwJTJDd2ViJTJDUiUyQ2xlYWZsZXQ=" data-listing-date-sort="1733788800000" data-listing-file-modified-sort="1762307606119" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+<a href="./projects/lit-map-moscow.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/lit_map.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
-<p><u>Used software</u>: <em>QGIS</em> (data processing, map) + <em>WhiteBoxTools</em>, <em>matplotlib</em> (hypsometric curve) <em>Adobe Illustrator</em> (layout);</p>
-<p><u>Role</u>: Author</p>
-<p><a href="files/Hypsometry_Adygea.pdf">PDF Version</a></p>
-</section>
-</section>
-<section id="sec-web-mapping" class="level1">
-<h1>Web mapping</h1>
-<section id="literature-map-of-moscow" class="level2">
-<h2 class="anchored" data-anchor-id="literature-map-of-moscow">Literature Map of Moscow</h2>
-<p><iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/" <="" p="">
-</iframe>
-</p><p style="font-size: 16.5px; color: #888888;">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Литературная карта Москвы
+</h5>
+<div class="listing-categories">
 
-This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">map</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('d2Vi'); return false;">web</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGVhZmxldA=='); return false;">leaflet</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Интерактивная карта Москвы с местами действия литературных произведений</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 10, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="bWFwJTJDJUQwJUExJUQwJUJFJUQxJTg2JUQwJUFEJUQwJUJBJTJDUUdJUyUyQ21hdHBsb3RsaWIlMkNQeXRob24=" data-listing-date-sort="1733788800000" data-listing-file-modified-sort="1762307606119" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<a href="./projects/denmark-population-map.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/ENG_Population_map_Denmark_MAIN.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
-<p><u>Used software</u>: <em>R</em> + <em>JavaScript</em> (Leaflet)</p>
-<p><u>Role</u>: Author</p>
-<p><a href="https://literator.arktixord.com">Full Web Version</a></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Карта населения Дании
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">map</div>
 
-</section>
-</section>
+<div class="listing-category" onclick="window.quartoListingCategory('JUQwJUExJUQwJUJFJUQxJTg2JUQwJUFEJUQwJUJB'); return false;">СоцЭк</div>
 
-</main> <!-- /main -->
+<div class="listing-category" onclick="window.quartoListingCategory('UUdJUw=='); return false;">QGIS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWF0cGxvdGxpYg=='); return false;">matplotlib</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Two-page atlas layout visualizing Denmark’s population structure and demographics.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 10, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="bWFwJTJDUUdJUw==" data-listing-date-sort="1733788800000" data-listing-file-modified-sort="1762307606119" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<a href="./projects/vernacular-districts-tver.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/Tver_Vernacular10.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Вернакулярные районы Твери
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFw'); return false;">map</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UUdJUw=='); return false;">QGIS</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Карта вернакулярных районов Твери.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 10, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -299,13 +390,14 @@ This project features a web-based map showcasing key locations in Moscow associa
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -1,72 +1,44 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Aleksandr Tsyplenkov",
-    "section": "",
-    "text": "My name is Aleksandr Tsyplenkov and this is my personal website (WIP). Feel free to learn more about me and take a look at my portfolio in the My Projects section!\nI’m currently a 4th year undergraduate student pursuing a bachelor degree in Cartography and Geoinformatics at Lomonosov Moscow State University (Faculty of Geography).\nMy interests are: spatial data visualization & map design, digital elevation modelling (my thesis is connected with DEM smoothing) and spatial analysis.\n\n\n\n\nDilijan National Park, Armenia | Field study of tree structures interpretation | 2025\nTU Berlin, Stadtökologie department, Germany | Internship (research assistant) | 2024\nPustozersk Landscape Reserve, Russia | Field thematic interpretation practice | 2023\nWhite Sea Biological Station, Russia | Topographic-geodesic practice | 2023"
-  },
-  {
-    "objectID": "index.html#hello-there",
-    "href": "index.html#hello-there",
-    "title": "Aleksandr Tsyplenkov",
-    "section": "",
-    "text": "My name is Aleksandr Tsyplenkov and this is my personal website (WIP). Feel free to learn more about me and take a look at my portfolio in the My Projects section!\nI’m currently a 4th year undergraduate student pursuing a bachelor degree in Cartography and Geoinformatics at Lomonosov Moscow State University (Faculty of Geography).\nMy interests are: spatial data visualization & map design, digital elevation modelling (my thesis is connected with DEM smoothing) and spatial analysis."
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Aleksandr Tsyplenkov",
-    "section": "",
-    "text": "Dilijan National Park, Armenia | Field study of tree structures interpretation | 2025\nTU Berlin, Stadtökologie department, Germany | Internship (research assistant) | 2024\nPustozersk Landscape Reserve, Russia | Field thematic interpretation practice | 2023\nWhite Sea Biological Station, Russia | Topographic-geodesic practice | 2023"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "My Portfolio",
+    "title": "Портфолио",
     "section": "",
-    "text": "This section highlights a selection of projects I have undertaken, both independently and as part of some ✨team✨. Since most of these projects were completed as part of my academic coursework, they are primarily documented in Russian."
+    "text": "Здесь собраны некоторые из моих проектов — как индивидуальных, так и командных. Большинство из них были подготовлены в рамках практических заданий на кафедре Картографии и геоинформатики.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nЭкспорт зерна из Российских портов\n\n\n\nmap\n\nQGIS\n\nIllustrator\n\n\n\nКарта потоков экспорта зерна из Российских портов\n\n\n\nJul 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nЛитературная карта Москвы\n\n\n\nmap\n\nweb\n\nR\n\nleaflet\n\n\n\nИнтерактивная карта Москвы с местами действия литературных произведений\n\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nКарта населения Дании\n\n\n\nmap\n\nСоцЭк\n\nQGIS\n\nmatplotlib\n\nPython\n\n\n\nTwo-page atlas layout visualizing Denmark’s population structure and demographics.\n\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nВернакулярные районы Твери\n\n\n\nmap\n\nQGIS\n\n\n\nКарта вернакулярных районов Твери.\n\n\n\nDec 10, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects.html#denmark-population-map",
-    "href": "projects.html#denmark-population-map",
-    "title": "My Portfolio",
-    "section": "Denmark Population Map",
-    "text": "Denmark Population Map\n\n\n\n\n\n\n\nThe goal of this project was to create two pages for the \"Population\" section of a national atlas, focusing on a country of my choice. My concept involved presenting a combination of spatial data, visualized at the municipality level, alongside complementary statistical insights, such as population pyramids and histograms. This approach aimed to provide a comprehensive and visually engaging representation of demographic information.\n\n\nUsed software: QGIS (data processing, maps, layout) + matplotlib (graphs);\nRole: Author\nPDF Version / PNG Version"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Александр Цыпленков",
+    "section": "",
+    "text": "На этом сайте представлено моё портфолио и информация о моей профессиональной деятельности (сайт в разработке). Здесь вы можете узнать про меня подробнее и ознакомится с моими проектами.\nВ настоящее время я заканчиваю обучение на 4 курсе бакалавриата Московского государственного университета имени М.В. Ломоносова, географический факультет, по направлению «Картография и геоинформатика».\nОбласти интересов: визуализация пространственных данных, веб-картография, оформление карт, цифровое моделирование рельефа, компьютерное зрение, анализ пространственных данных.\n\nОпыт работы\nЦЭПЛ РАН, лаборатория мониторинга лесов, Россия | Работа (лаборант-исследователь) | 2025\nДилижанский нац. парк, Армения | Полевые исследования структуры древостоя | 2025\nTU Berlin, Stadtökologie department, Германия | Стажировка (лаборант) | 2024\nМузей-заповедник “Пустозерск”, Россия | Полевая практика по дешифрированию | 2023\nБеломорская Биологическая станция, Россия | Топографо-геодезическая практика | 2023"
   },
   {
-    "objectID": "projects.html#vernacular-districts-of-tver",
-    "href": "projects.html#vernacular-districts-of-tver",
-    "title": "My Portfolio",
-    "section": "Vernacular Districts of Tver",
-    "text": "Vernacular Districts of Tver\n\n\n\n\n\n\n\nFor this task, we needed to map the vernacular districts of a chosen city. First, let’s explain the main idea. Vernacular districts are informal areas of a city, shaped by the people who live there through their everyday lives. These districts don’t follow official boundaries, and their names and locations are based on how people see and experience the city. \nAs mentioned earlier, we had to pick a city to map its vernacular districts. I chose the city of Tver (Tver Oblast, Russia). All the data were obtained by interviewing local residents.\n\n\nUsed software: QGIS (data processing, maps and layout);\nRole: Author\nPNG Version"
+    "objectID": "projects/denmark-population-map.html",
+    "href": "projects/denmark-population-map.html",
+    "title": "Карта населения Дании",
+    "section": "",
+    "text": "The goal of this project was to create two pages for the “Population” section of a national atlas, focusing on a country of my choice.\nUsed software: QGIS, matplotlib\nRole: Author\nPDF Version / PNG Version"
   },
   {
-    "objectID": "projects.html#landscape-map",
-    "href": "projects.html#landscape-map",
-    "title": "My Portfolio",
-    "section": "Landscape Map (Pustozersk, Russia)",
-    "text": "Landscape Map (Pustozersk, Russia)\n\n\n\n\n\n\n\nThe task was to map vegetation associations based on field surveys (that included UAV surveys and field researches).\n\n\nUsed software: QGIS (data processing, map) + Adobe Illustrator (layout);\nRole: Co-Author\nPDF Version"
+    "objectID": "projects/lit-map-moscow.html",
+    "href": "projects/lit-map-moscow.html",
+    "title": "Литературная карта Москвы",
+    "section": "",
+    "text": "This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.\n\n\nUsed software: R + JavaScript (Leaflet)\nRole: Author\nFull Web Version"
   },
   {
-    "objectID": "projects.html#hypsometry-map-of-rep-adygea",
-    "href": "projects.html#hypsometry-map-of-rep-adygea",
-    "title": "My Portfolio",
-    "section": "Hypsometry Map of Rep. Adygea",
-    "text": "Hypsometry Map of Rep. Adygea\n\n\n\n\n\n\n\nThe task was to map topography of a particular Russia region (Rep. of Adygea). Data for hypsometric curve (bottom left) was derived from DEM using WBT and then post-processed and visualized with Python packages.\n\n\nUsed software: QGIS (data processing, map) + WhiteBoxTools, matplotlib (hypsometric curve) Adobe Illustrator (layout);\nRole: Author\nPDF Version"
-  },
-  {
-    "objectID": "projects.html#literature-map-of-moscow",
-    "href": "projects.html#literature-map-of-moscow",
-    "title": "My Portfolio",
-    "section": "Literature Map of Moscow",
-    "text": "Literature Map of Moscow\n\n\n\n\nThis project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.\n\n\nUsed software: R + JavaScript (Leaflet)\nRole: Author\nFull Web Version"
+    "objectID": "projects/vernacular-districts-tver.html",
+    "href": "projects/vernacular-districts-tver.html",
+    "title": "Вернакулярные районы Твери",
+    "section": "",
+    "text": "For this task, we needed to map the vernacular districts of a chosen city. First, let’s explain the main idea. Vernacular districts are informal areas of a city, shaped by the people who live there through their everyday lives. These districts don’t follow official boundaries, and their names and locations are based on how people see and experience the city. \nAs mentioned earlier, we had to pick a city to map its vernacular districts. I chose the city of Tver (Tver Oblast, Russia). All the data were obtained by interviewing local residents.\n\n\nUsed software: QGIS (data processing, maps and layout);\nRole: Author\nPNG Version"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About me",
+    "title": "О себе",
     "section": "",
-    "text": "My name is Aleksandr Tsyplenkov. I am currently a 4th year undergraduate student pursuing a bachelor degree in Cartography and Geoinformatics at Lomonosov Moscow State University (Faculty of Geography). I’ve been keen on geography since I was a child, that’s why I once decided to connect my life and potential career with spatial data. My undergraduate thesis are connected with DEM analysis but I’m also extremely enthusiastic about spatial data visualization and other aspects of cartography & geoinformatics. I also have some experience in field surveys including usage of UAVs — you can read about my expeditions in my CV below.\n\n\n  \n     Download PDF"
+    "text": "В настоящее время я студент 4-го курса, получаю степень бакалавра по направлению «Картография и геоинформатика» в МГУ им. М. В. Ломоносова (географический факультет). Интерес к географии, возникший у меня ещё в детстве, предопределил мой выбор в пользу работы с пространственными данными.\nВ рамках курсовой работы я занимался анализом ЦМР, однако также интересуюсь визуализацией пространственных данных и другими направлениями картографии и геоинформатики. Имею опыт полевых исследований, в том числе с применением БПЛА. Подробнее о моих экспедициях, а также опыте работы и моих навыках — в резюме ниже.\n\n\n  \n     Скачать PDF"
   }
 ]
