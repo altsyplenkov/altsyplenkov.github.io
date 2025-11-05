@@ -16,7 +16,7 @@ about:
       href: https://istina.msu.ru/workers/634185950/
     - icon: briefcase
       text: Резюме
-      href: https://altsyplenkov.github.io/files/AlTsyplenkov_CV_eng.pdf
+      href: https://altsyplenkov.github.io/files/Alexander_Tsyplenkov_CV_ru.pdf
 execute:
   echo: false
 comments: false
