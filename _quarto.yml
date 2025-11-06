@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: "images/favicon-96x96.png"
+  favicon: "images/favicon_alt.png"
   title: "Александр 🗺 Цыпленков"
   description: "Персональный сайт и портфолио Цыпленкова Александра"
   navbar:
