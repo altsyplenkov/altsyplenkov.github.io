@@ -85,7 +85,7 @@ fig <- plot_ly(
 fig <- fig %>%
   layout(
     geo = list(
-      projection = list(type = "orthographic"),
+      projection = list(type = "orthographic", rotation = list(lat = 55.7558, lon = 37.6173, roll = 0)),
       showland = TRUE,
       landcolor = "rgb(240, 240, 240)",
       showcountries = FALSE,
