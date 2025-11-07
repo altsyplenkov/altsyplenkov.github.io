@@ -25,16 +25,80 @@ comments: false
 :::{.column-body-outset}
 
 
-На этом сайте представлено моё портфолио и информация о моей профессиональной деятельности (сайт в разработке). Здесь вы можете [**узнать про меня**](./about.qmd) подробнее и ознакомится с [**моими проектами**]((./projects.qmd)).
+На этом сайте представлено моё портфолио и информация о моей профессиональной деятельности (сайт в разработке). Здесь вы можете [**узнать обо мне**](./about.qmd) подробнее и ознакомится с [**моими проектами**]((./projects.qmd)).
 
 В настоящее время я заканчиваю обучение на 4 курсе бакалавриата Московского государственного университета имени М.В. Ломоносова, [географический факультет](https://www.eng.geogr.msu.ru/?changed_lang=true), по направлению [*«Картография и геоинформатика»*](https://carto.geogr.msu.ru/site/).
 
-Области интересов: визуализация пространственных данных, веб-картография, оформление карт, цифровое моделирование рельефа, компьютерное зрение, анализ пространственных данных.
+*Области интересов*: визуализация пространственных данных, веб-картография, оформление карт, цифровое моделирование рельефа, компьютерное зрение, анализ пространственных данных.
 
 
 ### Опыт работы
 
-[ЦЭПЛ РАН, лаборатория мониторинга лесов]{.mark}, Россия | Работа (лаборант-исследователь) | 2025
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(plotly)
+library(sf)
+
+workplaces <- st_read("data/work_place.geojson", quiet = TRUE)
+
+if (st_crs(workplaces)$epsg != 4326) {
+  workplaces <- st_transform(workplaces, 4326)
+}
+
+coords <- st_coordinates(workplaces)
+workplaces$lon <- coords[, "X"]
+workplaces$lat <- coords[, "Y"]
+
+# Задаём цвета по годам
+year_colors <- c(
+  "2023" = "#BBC863",
+  "2024" = "#658C58",
+  "2025" = "#31694E"
+)
+
+fig <- plot_ly(
+  data = workplaces,
+  type = "scattergeo",
+  mode = "markers",
+  lon = ~lon,
+  lat = ~lat,
+  text = ~paste0(
+    "<b>", nametag, "</b>, ", place, "<br>",
+    "<i>", descript, "</i>, " ,year, " г."
+  ),
+  hoverinfo = "text",
+  showlegend = FALSE,
+  marker = list(
+    size = 10,
+    color = ~year_colors[as.character(year)],
+    line = list(
+      color = "white",  
+      width = 1         
+    ),
+    showscale = FALSE
+  )
+)
+
+fig <- fig %>%
+  layout(
+    geo = list(
+      projection = list(type = "orthographic"),
+      showland = TRUE,
+      landcolor = "rgb(240, 240, 240)",
+      showcountries = FALSE,
+      projection_scale = 1,
+      rotation = list(lat = 55.7558, lon = 37.6173)
+    ),
+    legend = list(visible = FALSE)
+  )
+
+fig
+```
+
+[ЦЭПЛ РАН]{.mark}, Россия | Работа (лаборант-исследователь) | 2025
 
 [Дилижанский нац. парк]{.mark}, Армения | Полевые исследования структуры древостоя | 2025
 

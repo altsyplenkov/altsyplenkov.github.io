@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "work_place",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "nametag": "ЦЭПЛ РАН, лаборатория мониторинга лесных экосистем", "descript": "Работа (лаборант-исследователь)", "year": 2025, "place": "Россия (Москва)" }, "geometry": { "type": "Point", "coordinates": [ 4178237.333641332108527, 7490064.795042323879898 ] } },
+{ "type": "Feature", "properties": { "id": null, "nametag": "TU Berlin, Stadtökologie department", "descript": "Стажировка", "year": 2024, "place": "Германия" }, "geometry": { "type": "Point", "coordinates": [ 1483127.815464030019939, 6893211.585447032004595 ] } },
+{ "type": "Feature", "properties": { "id": null, "nametag": "Дилижанский национальный парк", "descript": "Полевые исследования структуры древостоя", "year": 2025, "place": "Армения" }, "geometry": { "type": "Point", "coordinates": [ 4997905.813657455146313, 4973883.631371486932039 ] } },
+{ "type": "Feature", "properties": { "id": null, "nametag": "Музей-заповедник “Пустозерск”", "descript": "Полевая практика по дешифрированию", "year": 2023, "place": "Россия (НАО)" }, "geometry": { "type": "Point", "coordinates": [ 5853064.640941627323627, 10309030.546690713614225 ] } },
+{ "type": "Feature", "properties": { "id": null, "nametag": "Беломорская Биологическая станция", "descript": "Топографо-геодезическая практика", "year": 2023, "place": "Россия (Карелия)" }, "geometry": { "type": "Point", "coordinates": [ 3684475.228670850861818, 10030049.51301983743906 ] } }
+]
+}

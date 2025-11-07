@@ -19,5 +19,8 @@
   },
   "projects/export-grain-map.qmd": {
     "export-grain-map.html": "ecf503ff"
+  },
+  "data/work_place.qmd": {
+    "work_place.html": "bfb5d58a"
   }
 }
