@@ -1,6 +1,6 @@
 ---
 title: "Литературная карта Москвы"
-date: 2024-12-10
+date: 2021-05-12
 categories: ["map", "web", "R", "leaflet"]
 image: ../images/lit_map.png
 description: >

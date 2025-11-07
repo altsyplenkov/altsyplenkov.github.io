@@ -1,6 +1,6 @@
 ---
 title: "Вернакулярные районы Твери"
-date: 2024-12-10
+date: 2025-03-04
 categories: ["map", "QGIS"]
 image: ../images/Tver_Vernacular10.png
 description: >

@@ -1,7 +1,7 @@
 ---
 title: "Карта населения Дании"
-date: 2024-12-10
-categories: ["map", "СоцЭк", "QGIS", "matplotlib", "Python"]
+date: 2024-12-25
+categories: ["map", "QGIS", "matplotlib", "Python"]
 image: ../images/ENG_Population_map_Denmark_MAIN.png
 description: >
   Two-page atlas layout visualizing Denmark’s population structure and demographics.

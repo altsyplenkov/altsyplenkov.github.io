@@ -7,4 +7,4 @@ description: >
   Карта потоков экспорта зерна из Российских портов
 ---
 
-![](../images/export_grain.png){fig-align="right"}
+![](../images/export_grain.png)
