@@ -5,6 +5,7 @@ website:
   favicon: "images/favicon_alt.png"
   title: "Александр Цыпленков"
   description: "Персональный сайт и портфолио Цыпленкова Александра"
+  google-analytics: "G-R2JZFEX79V"
   navbar:
     left:
       # - href: index.qmd

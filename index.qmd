@@ -76,7 +76,7 @@ fig <- plot_ly(
     color = ~year_colors[as.character(year)],
     line = list(
       color = "white",  
-      width = 1         
+      width = 2         
     ),
     showscale = FALSE
   )
