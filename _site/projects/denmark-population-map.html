@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-12-25">
-<meta name="description" content="Two-page atlas layout visualizing Denmark’s population structure and demographics.">
+<meta name="description" content="Проект разворота атласа Дании, посвящённый структуре населения и демографии.">
 
 <title>Карта населения Дании – Александр Цыпленков</title>
 <style>
@@ -138,7 +138,7 @@ gtag('config', 'G-R2JZFEX79V', { 'anonymize_ip': true});
 
 <div>
   <div class="description">
-    <p>Two-page atlas layout visualizing Denmark’s population structure and demographics.</p>
+    <p>Проект разворота атласа Дании, посвящённый структуре населения и демографии.</p>
   </div>
 </div>
 
@@ -161,15 +161,71 @@ gtag('config', 'G-R2JZFEX79V', { 'anonymize_ip': true});
 </header>
 
 
+<p style="font-size: 16.5px;text-align: justify;">
+<span style="font-weight: bold; color: #666666;">Кратко. </span>В рамках данного проекта бало разработано содержание и составлена карту населения Дании в формате одного разворота листа национального атласа.
+</p>
+<hr>
 <div class="quarto-figure quarto-figure-right">
 <figure class="figure">
 <p><img src="../images/ENG_Population_map_Denmark_MAIN.png" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
 </figure>
 </div>
-<p>The goal of this project was to create two pages for the “Population” section of a national atlas, focusing on a country of my choice.</p>
-<p><strong>Used software:</strong> QGIS, matplotlib<br>
-<strong>Role:</strong> Author</p>
-<p><a href="../files/ENG_Population_map_Denmark_MAIN.pdf">PDF Version</a> / <a href="../images/ENG_Population_map_Denmark_MAIN.png">PNG Version</a></p>
+<hr>
+<div style="font-size: 16.5px; text-align: justify; line-height: 1.55;">
+    <p>
+        Карта населения должна наиболее полно отражать пространственное распределение населения на территории страны.
+        Для этого были использованы показатели численности населения по 98 коммунам (административно-территориальным
+        единицам) Дании, а также столице — Копенгагену. Коммуны (дат. <i>kommuner</i>) являются основными единицами
+        местного самоуправления, отвечающими за социальные услуги, градостроительство и инфраструктуру. Они были
+        сформированы в результате реформ и сохраняют ключевое значение в управлении на местном уровне. Каждая коммуна
+        имеет собственный административный центр, являющийся важным экономическим и социальным узлом региона.
+    </p>
+
+    <p>
+        Разработанный разворот атласа на тематику «Население» представлен тремя картографическими изображениями:
+        одним основным и двумя дополнительными. Основное картографическое изображение отражает несколько показателей:
+    </p>
+
+    <ul style="margin: 0 0 1.2em 1.2em; padding: 0;">
+        <li>плотность населения Дании по коммунам (чел/км²);</li>
+        <li>численность городского населения (тыс. чел.).</li>
+    </ul>
+
+    <p>
+        Географическая основа данного изображения включает береговые линии Дании, Германии и Швеции, объекты гидросферы
+        (подписаны крупнейшие моря и заливы), а также основные автомагистрали. Плотность населения показана посредством
+        картограммы в шести классах, а цветовая палитра выдержана в цветах национального флага. Города обозначены
+        значками переменного размера и подписями (названия — на русском языке, столица выделена заглавными буквами)
+        с использованием выносок. Легенды распределены по углам для более удобного восприятия страницы.
+    </p>
+
+    <p>
+        Дополнительные картографические изображения однотипны и представляют собой картограммы, показывающие коэффициент
+        естественного и миграционного приростов отдельно. Обе картограммы классифицированы на пять классов. В легенду
+        вынесены профессиональные аббревиатуры «ЕП» и «МП», расшифрованные в пояснительной сноске под изображениями.
+        Для облегчения визуального восприятия географическая основа отсутствует, а компоновка изображений выполнена
+        в плавающем стиле.
+    </p>
+</div>
+
+<hr>
+<div style="font-size: 16.5px; text-align: justify; line-height: 1.55;">
+  <p>
+  Помимо геоизображений разворот содержит информационно-справочный блок из текстового фрагмента и двух графиков. Графики представлены       возрастно-половой пирамидой Дании и графиком естественного и миграционного прироста. Графики дополняют информацию, представленную на той же странице, добавляя временной аспект к показателям, рассмотренным с точки зрения пространственных закономерностей. Текстовый фрагмент обобщает всю информацию, представленную на развороте, что позволяет глубже погрузиться в рассмотренные показатели населения Дании.
+  </p>
+</div>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="../_site/images/denm/ep_mp_v3.png" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
+</figure>
+</div>
+<hr>
+<p style="font-size: 16.5px;text-align: justify;line-height: 1.55;">
+    Весь разворот был составлен и свёрстан в ГИС-пакете QGIS, помимо графиков, которые были сформированы при помощи языка программирования Python (библиотека Matplotlib). В результате был получен разворот атласа Дании на тему «Население».
+</p>
+<p><strong>Использованное ПО:</strong> QGIS, matplotlib<br>
+<strong>Роль:</strong> Автор</p>
+<p><a href="../files/ENG_Population_map_Denmark_MAIN.pdf">PDF версия</a> / <a href="../images/ENG_Population_map_Denmark_MAIN.png">PNG версия</a></p>
 
 
 
@@ -264,7 +320,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/altsyplenkov\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
