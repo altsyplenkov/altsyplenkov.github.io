@@ -6,20 +6,23 @@ image: ../images/lit_map.png
 description: >
   Интерактивная карта Москвы с местами действия литературных произведений
 ---
-`<iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/"`{=html}
-
-</iframe>
 
 ```{=html}
-<p style="font-size: 16.5px; color: #888888;">
+<p style="font-size: 16.5px;text-align: justify;">
+  <span style="font-weight: bold; color: #666666;">Кратко.</span> Проект представляет собой <span style="background-color: #f0f0f0; padding: 2px 4px;">веб-карту</span>, на которой обозначены ключевые места в Москве, связанные с классической русской литературой. Карта служит визуальным путеводителем по литературному наследию города, выделяя места, связанные с известными писателями и их произведениями. Полная веб-версия доступна по <a href="https://literator.arktixord.com" target="_blank" style="color: #0066cc; text-decoration: none;">ссылке</a>.</p>
+```
 
-This project features a web-based map showcasing key locations in Moscow associated with classical Russian literature. The map serves as a visual guide to the city's literary heritage, highlighting places connected to renowned authors and their works.
+---
 
+```{=html}
+<p style="font-size: 16.5px;text-align: justify;">
+Данный проект объединил в себе интерес автора к классической литературе и географии. Так, на интерактивную карту были переложены фрагменты классических литературных произведений следующих авторов: <em>Иосиф Бродский, Владимир Маяковский, Марина Цветаева, Иван Бунин, Александр Блок, Михаил Булгаков, Александр Пушкин, Илья Ильф и Евгений Петров</em>.
 </p>
 ```
 
-[Used software]{.underline}: *R* + *JavaScript* (Leaflet)
 
-[Role]{.underline}: Author
+[Стэк]{.underline}: *R* + *JavaScript* (Leaflet)
 
-[Full Web Version](https://literator.arktixord.com)
+[Роль]{.underline}: Автор, веб-картограф (проект создавался в школьном коллективе из 3 человек; остальные 2 человека были ответственны за наполнение БД и настройку серверного оборудования)
+
+`<iframe id="inlineFrameExample" title="Inline Frame Example" width="800" height="800" src="https://literator.arktixord.com/"`{=html}
