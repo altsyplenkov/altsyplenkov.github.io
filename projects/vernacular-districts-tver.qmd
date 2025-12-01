@@ -4,7 +4,7 @@ date: 2025-03-04
 categories: ["map", "QGIS"]
 image: ../images/Tver_Vernacular10.png
 description: >
-  Карта вернакулярных районов Твери.
+  Карта вернакулярных районов Твери
 ---
 
 ```{=html}

@@ -4,7 +4,7 @@ date: 2024-12-25
 categories: ["map", "QGIS", "matplotlib", "Python"]
 image: ../images/ENG_Population_map_Denmark_MAIN.png
 description: >
-  Проект разворота атласа Дании, посвящённый структуре населения и демографии.
+  Проект разворота атласа Дании, посвящённый структуре населения и демографии
 ---
 
 ```{=html}

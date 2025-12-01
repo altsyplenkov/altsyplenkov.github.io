@@ -1,0 +1,33 @@
+---
+title: "Зелёные зоны и стоимость жилья"
+date: 2025-11-18
+categories: ["map", "Python", "parsing", "QGIS"]
+image: ../images/nn_cian_2.png
+description: >
+  Исследование взаимосвязи между стоимостью жилья и наличием зелёных зон
+---
+
+```{=html}
+<p style="font-size: 16.5px;text-align: justify;">
+<span style="font-weight: bold; color: #666666;">Кратко. </span>
+В рамках проекта проверялась гипотезао том, что городские пространства с более высокой средней стоимостью аренды жилья имеют большую долю зелёных территорий. Территория исследования: <em>Нижний Новгород</em>.
+</p>
+```
+---
+
+![](../images/nn_cian_2.png)
+
+```python
+import time
+import pandas as pd
+import geopandas as gpd
+from shapely.geometry import Point
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+from bs4 import BeautifulSoup
+from geopy.geocoders import Nominatim, Photon
+```

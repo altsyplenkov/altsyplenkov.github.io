@@ -22,5 +22,8 @@
   },
   "data/work_place.qmd": {
     "work_place.html": "bfb5d58a"
+  },
+  "projects/nn_cian.qmd": {
+    "nn_cian.html": "529b836f"
   }
 }
