@@ -50,7 +50,7 @@ description: >
     </p>
 
     <div style="text-align: center; margin: 1em 0;">
-        <img src="../_site/images/tver_nostalgia.png" alt="Рис. 1" style="max-width: 100%; height: auto; border-radius: 0px;">
+        <img src="../images/tver_nostalgia.png" alt="Рис. 1" style="max-width: 100%; height: auto; border-radius: 0px;">
         <div style="font-size: 14px; color: #555; margin-top: 0.3em;">Фрагмент обсуждения из сообщества «Тверская Ностальгия»</div>
     </div>
 

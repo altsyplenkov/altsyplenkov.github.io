@@ -69,7 +69,7 @@ description: >
 </div>
 ```
 
-![](../_site/images/denm/ep_mp_v3.png){fig-align="right"}
+![](../images/denm/ep_mp_v3.png){fig-align="right"}
 
 ---
 

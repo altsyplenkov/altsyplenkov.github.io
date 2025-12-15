@@ -11,7 +11,7 @@
     "href": "projects/nn_cian.html",
     "title": "Зелёные зоны и стоимость жилья",
     "section": "",
-    "text": "Кратко. \nВ рамках проекта проверялась гипотезао том, что городские пространства с более высокой средней стоимостью аренды жилья имеют большую долю зелёных территорий. Территория исследования: Нижний Новгород.\n\n\n\nimport time\nimport pandas as pd\nimport geopandas as gpd\nfrom shapely.geometry import Point\n\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.support.ui import WebDriverWait\nfrom selenium.webdriver.support import expected_conditions as EC\n\nfrom bs4 import BeautifulSoup\nfrom geopy.geocoders import Nominatim, Photon"
+    "text": "Кратко. \nВ рамках проекта проверялась гипотеза о том, что городские пространства с более высокой средней стоимостью аренды жилья имеют большую долю зелёных территорий. Территория исследования: Нижний Новгород.\n\n\n\nimport time\nimport pandas as pd\nimport geopandas as gpd\nfrom shapely.geometry import Point\n\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.support.ui import WebDriverWait\nfrom selenium.webdriver.support import expected_conditions as EC\n\nfrom bs4 import BeautifulSoup\nfrom geopy.geocoders import Nominatim, Photon"
   },
   {
     "objectID": "index.html",
