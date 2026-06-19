@@ -197,7 +197,7 @@ gtag('config', 'G-R2JZFEX79V', { 'anonymize_ip': true});
     </p>
 
     <div style="text-align: center; margin: 1em 0;">
-        <img src="../_site/images/tver_nostalgia.png" alt="Рис. 1" style="max-width: 100%; height: auto; border-radius: 0px;">
+        <img src="../images/tver_nostalgia.png" alt="Рис. 1" style="max-width: 100%; height: auto; border-radius: 0px;">
         <div style="font-size: 14px; color: #555; margin-top: 0.3em;">Фрагмент обсуждения из сообщества «Тверская Ностальгия»</div>
     </div>
 
@@ -371,7 +371,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/altsyplenkov\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

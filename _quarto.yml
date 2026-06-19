@@ -18,7 +18,7 @@ website:
       #  text: My Blog
   page-footer:
     left: 
-      © 2025 Aleksandr Tsyplenkov
+      © 2026 Aleksandr Tsyplenkov
     right:
       - href: https://www.quarto.org
         text: Built with Quarto
@@ -41,3 +41,4 @@ format:
     css: styles.css
     mainfont: Tahoma
     footnotes-hover: true
+    embed-resources: true
